@@ -8,11 +8,18 @@ interface DetalleAlmacen{
   cantidad: number
 }
 
+//crear almacenes
 const alm01: Almacen = {
   nombre: "Almacen 01",
   detalles: []
 }
 
+const alm02: Almacen = {
+  nombre: "Almacen 02",
+  detalles: []
+}
+
+//datos
 alm01.detalles.push({
   producto: "Galleta ",
   cantidad: 21
